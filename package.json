@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aaryan1004.github.io/react-portfolio",
+  "homepage": "https://aaryan1004.github.io/React_website",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
