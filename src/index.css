@@ -1,0 +1,35 @@
+:root {
+  --bg: #f7f2ea;
+  --ink: #122033;
+  --muted: #54657c;
+  --paper: #ffffff;
+  --line: #d7dfec;
+  --accent: #f36a2a;
+  --shadow: 0 16px 40px rgba(14, 31, 56, 0.11);
+  --display-font: 'Space Grotesk', sans-serif;
+  --body-font: 'Outfit', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--body-font);
+  background:
+    radial-gradient(circle at 8% 6%, #fff6de 0, rgba(255, 246, 222, 0) 36%),
+    radial-gradient(circle at 92% 8%, #e3f2ff 0, rgba(227, 242, 255, 0) 30%),
+    linear-gradient(140deg, #f7f2ea, #fbfaf6);
+}
