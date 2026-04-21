@@ -113,6 +113,15 @@ const projects: readonly Project[] = [
       'Android control system for autonomous robots using Kotlin, WebSockets, and ROS telemetry integrations.',
     impact: 'Delivered sub-200ms command latency with live video and LiDAR map interaction.',
     stack: ['Kotlin', 'Android SDK', 'WebSockets', 'ROS']
+  },
+  {
+    title: 'Inquiro',
+    period: 'Sep 2025',
+    summary:
+      'RAG chatbot built with LangChain and Ollama for document-grounded Q&A over 1,000+ text chunks using fine-grained retrieval.',
+    impact: 'Achieved 90%+ retrieval accuracy and sub-2s query response time on local deployment.',
+    stack: ['Python', 'LangChain', 'Ollama', 'Mistral LLM', 'HuggingFace', 'ChromaDB'],
+    link: 'https://github.com/Aaryan1004/Langchain-RAG-Chatbot'
   }
 ]
 
@@ -169,7 +178,7 @@ function App() {
         >
           <div className="hero-copy-block">
             <p className="eyebrow">Software Engineer | AI/ML | Cloud Platforms</p>
-            <h1>Designing high-impact digital systems that recruiters can trust at first glance.</h1>
+            <h1>Hi, I'm Aaryan and I like to code and build.</h1>
             <p className="hero-description">
               I am Aaryan, an Electrical Engineering undergraduate at Delhi Technological University
               (GPA 8.67/10) focused on building production-ready AI products, cloud systems, and
